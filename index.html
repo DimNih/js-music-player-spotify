@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>🎵 Music Player</h1>
+        <input type="text" id="search" placeholder="Cari Lagu...">
+        <button onclick="searchSong()">Cari</button>
+
+<!-- Load -->
+        <div class="loading" id="loading">
+            <div class="loader"></div>
+            <p>Mencari lagu...</p>
+        </div>
+
+
+        <div id="result"></div>
+
+    </div>
+    <script src="https://sdk.scdn.co/spotify-player.js"></script>
+    <script src="bekend.js"></script>
+
+
+</body>
+</html>
